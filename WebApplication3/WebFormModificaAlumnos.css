@@ -1,0 +1,80 @@
+﻿body {
+    background-color: darkgray;
+}
+
+#divAlumno{
+    margin:auto;
+    width:600px;
+    padding-top:3%;
+    padding-left:9%;
+    background-color: #eeff52;
+    box-shadow: inset 0px 0px 46px 14px rgba(0,0,0,1);
+    border-radius: 50px;
+}
+
+select{
+    font-size:150%;
+    text-align:center;
+    margin-bottom:10px;
+    margin-left:5px;
+
+}
+
+input{
+    font-size:150%;
+    margin-bottom:10px;
+    margin-left:5px;
+}
+
+
+
+span{
+    margin-bottom:5px;
+    font-size:200%;
+    margin-top:5px; 
+    padding:2px;
+    background-color:gold;
+    border-radius: 10px;
+}
+
+
+#volver{
+    text-decoration:none;
+    margin-top: 4%;
+    font-size:150%;
+    background-color:gold;
+    margin-left:4%;
+    position:absolute;
+    left:41%;
+    top:40%;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top:2%;
+    border-radius: 20px;
+    display:inline-block;
+}
+
+h1{
+    font-size:500%;
+    margin-left:41%;
+}
+
+input[type=submit]{
+    margin-left:25%;
+    margin-top:5%;
+    margin-bottom:5%;
+    height:50px;
+}
+
+#volver:visited{
+    color:black;
+}
+
+#volver:hover{
+    -webkit-box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+}
+

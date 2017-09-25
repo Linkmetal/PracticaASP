@@ -1,0 +1,50 @@
+﻿body {
+    background-color: darkgray;
+}
+
+#HyperLink1{
+    background-color:gold;
+    margin-left:20%;
+    position:relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top:2%;
+    border-radius: 20px;
+    display:inline-block;
+    float: left;
+}
+
+#HyperLink2{
+    background-color:gold;
+    position:relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top:2%;
+    border-radius: 20px;
+    display:inline-block;
+    top:-16px;
+    left:180px;
+  }
+
+#HyperLink3 {
+    background-color:gold;
+    position:relative;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top:2%;
+    border-radius: 20px;
+    display:inline-block;
+    top:-115px;
+    margin-left: 60%;
+
+}
+
+h1{
+    margin-left:40%;
+}

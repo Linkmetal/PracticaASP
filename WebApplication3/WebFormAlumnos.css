@@ -1,0 +1,71 @@
+﻿body {
+    background-color: darkgray;
+}
+
+th{
+   background-color:gold;
+   border:solid 1px red;
+   font-size:200%;
+}
+
+#gridAlumnos input{
+    font-size:120%;
+}
+
+#gridAlumnos>tr>th:nth-child(6){
+    display:none;
+}
+
+td{
+    padding:5px;
+    font-size:200%;
+}
+
+#gridAlumnos{
+    text-align:center;
+    margin:auto;
+    width:600px;
+    padding:10px;
+    padding-top:10px;
+    background-color:#eeff52;
+    border:solid red 1px;
+}
+
+h1{
+    font-size:500%;
+    margin-left:39%;
+}
+
+#volver{
+    text-decoration:none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size:150%;
+    background-color:gold;
+    margin-left:42%;
+    position:absolute;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing:border-box;
+    padding-top:2%;
+    border-radius: 20px;
+    display:inline-block;
+}
+
+#volver:visited{
+    color:black;
+}
+
+#volver:hover{
+    -webkit-box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+}
+
+tr:hover{
+     background-color:gold;
+    -webkit-box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 27px -1px rgba(0,0,0,1);
+}
